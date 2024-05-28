@@ -1,0 +1,69 @@
+.mainPrestations {
+  border: 2px solid green;
+  width: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .card1 {
+      border: 2px solid red;
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      justify-content: space-between;
+      .image1 {
+        border: 2px solid blue;
+        width: 35%;
+        height: 300px;
+        background-image: url("../../assets/image/design.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .card2 {
+      border: 2px solid red;
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      justify-content: space-between;
+      .image2 {
+        border: 2px solid blue;
+        width: 35%;
+        height: 300px;
+        background-image: url("../../assets/image/seo.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .card3 {
+      border: 2px solid red;
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      justify-content: space-between;
+      .image3 {
+        border: 2px solid blue;
+        width: 35%;
+        height: 300px;
+        background-image: url("../../assets/image/multimedia.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .textContainer {
+      h3 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

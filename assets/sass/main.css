@@ -1,0 +1,273 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 100vh;
+  margin-top: 20px;
+  perspective: 800px;
+  z-index: 1;
+  transition: all 0.4s ease;
+  background-color: rgba(1, 1, 1, 0.842);
+}
+nav .logo {
+  display: none;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.2rem;
+  transition: all 0.4s ease;
+}
+nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+  width: 25vw;
+  height: 15vh;
+  border-bottom: 2px solid rgb(208, 208, 208);
+  line-height: 0;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.4s;
+  transition: all 0.4s ease;
+}
+nav ul li .firstText,
+nav ul li .secondText {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transform-origin: bottom;
+}
+nav ul li .space {
+  width: 0.6em;
+}
+nav ul li .firstText {
+  color: rgb(206, 206, 206);
+}
+nav ul li .secondText {
+  color: red;
+}
+nav ul li .letter {
+  display: inline-block;
+}
+
+.contactPage nav {
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90%;
+  height: 5%;
+  background-color: transparent;
+}
+.contactPage nav .logo {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+}
+.contactPage nav ul {
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
+.contactPage nav ul li {
+  display: flex;
+  font-size: 2vw;
+  width: 5vw;
+  height: 5vh;
+  line-height: 0;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.4s ease;
+  border-bottom: none;
+}
+.contactPage nav ul li .firstText {
+  font-size: 1rem;
+}
+.contactPage nav ul li .secondText {
+  font-size: 1rem;
+}
+
+.containerBanner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: rgb(4, 4, 4);
+  background-image: url("../image/backgroundperso.png");
+}
+.containerBanner .hero {
+  width: 50%;
+}
+.containerBanner .hero h1 {
+  color: rgb(220, 220, 220);
+  font-family: "Raleway", sans-serif;
+  font-size: 10vw;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+  margin-left: 80px;
+}
+.containerBanner .hero p {
+  color: rgb(206, 206, 206);
+  text-align: end;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2vw;
+}
+
+.mainPrestations {
+  border: 2px solid green;
+  width: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.mainPrestations ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.mainPrestations ul .card1 {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+}
+.mainPrestations ul .card1 .image1 {
+  border: 2px solid blue;
+  width: 35%;
+  height: 300px;
+  background-image: url("../../assets/image/design.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainPrestations ul .card2 {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+}
+.mainPrestations ul .card2 .image2 {
+  border: 2px solid blue;
+  width: 35%;
+  height: 300px;
+  background-image: url("../../assets/image/seo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainPrestations ul .card3 {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+}
+.mainPrestations ul .card3 .image3 {
+  border: 2px solid blue;
+  width: 35%;
+  height: 300px;
+  background-image: url("../../assets/image/multimedia.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainPrestations ul .textContainer h3 {
+  font-size: 3rem;
+}
+.mainPrestations ul .textContainer p {
+  font-size: 1.2rem;
+}
+
+.contactContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.contactContainer .form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  font-family: "Raleway", sans-serif;
+}
+.contactContainer .form label {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 3px;
+  margin-top: 30px;
+}
+.contactContainer .form #name {
+  font-size: 1.2rem;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+}
+.contactContainer .form #email {
+  font-size: 1.2rem;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+}
+.contactContainer .form #message {
+  font-size: 1rem;
+  border-radius: 5px;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 180px;
+}
+.contactContainer .form .buttonDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.contactContainer .form .buttonDiv button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Cacher la scrollbar pour les navigateurs Webkit comme Chrome, Safari et Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Cacher la scrollbar pour les autres navigateurs comme Firefox */
+body {
+  overflow: hidden;
+  background-color: rgb(4, 4, 4);
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Optionnel : ajouter des styles spécifiques pour la racine de l'application */
+#root {
+  overflow: hidden; /* Empêche le défilement global */
+}/*# sourceMappingURL=main.css.map */

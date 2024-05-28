@@ -1,0 +1,36 @@
+@import "../../components/Navbar/navBar";
+@import "../../components/HeroBanner/heroBanner";
+@import "../../components/Prestations/prestations";
+@import "../../page/Contact/contact";
+
+// Font //
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+//  // .raleway-<uniquifier> {
+//   font-family: "Raleway", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: <weight>;
+//   font-style: normal;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Cacher la scrollbar pour les navigateurs Webkit comme Chrome, Safari et Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Cacher la scrollbar pour les autres navigateurs comme Firefox */
+body {
+  overflow: hidden;
+
+  background-color: rgb(4, 4, 4);
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Optionnel : ajouter des styles spécifiques pour la racine de l'application */
+#root {
+  overflow: hidden; /* Empêche le défilement global */
+}
