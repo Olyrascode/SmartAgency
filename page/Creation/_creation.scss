@@ -1,0 +1,86 @@
+.creationContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../image/backgroundperso.png");
+  font-family: "Raleway", sans-serif;
+  h1 {
+    color: white;
+  }
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    .card1 {
+      display: flex;
+      flex-direction: row;
+      background-color: red;
+
+      h2 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.2rem;
+        width: 50%;
+      }
+      .image {
+        width: 250px;
+        height: 350px;
+        background-image: url("../../assets/image/design.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+      }
+    }
+    .card2 {
+      display: flex;
+      flex-direction: row;
+      background-color: red;
+
+      h2 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.2rem;
+        width: 50%;
+      }
+      .image {
+        width: 250px;
+        height: 350px;
+        background-image: url("../../assets/image/design.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+      }
+    }
+    .card3 {
+      display: flex;
+      flex-direction: row;
+      background-color: red;
+
+      h2 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.2rem;
+        width: 50%;
+      }
+      .image {
+        width: 250px;
+        height: 350px;
+        background-image: url("../../assets/image/design.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.communicationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../image/backgroundperso.png");
+  font-family: "Raleway", sans-serif;
+  .communicationBanner {
+    h1 {
+      color: aliceblue;
+    }
+  }
+}

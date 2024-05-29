@@ -205,6 +205,8 @@ nav ul li .letter {
   justify-content: center;
   align-items: center;
   z-index: 2;
+  background-image: url("../image/backgroundperso.png");
+  font-family: "Raleway", sans-serif;
 }
 .contactContainer .form {
   display: flex;
@@ -247,6 +249,151 @@ nav ul li .letter {
   height: 30px;
   border-radius: 5px;
   margin-top: 30px;
+}
+
+.creationContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../image/backgroundperso.png");
+  font-family: "Raleway", sans-serif;
+}
+.creationContainer h1 {
+  color: white;
+}
+.creationContainer .cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.creationContainer .cardContainer .card1 {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+.creationContainer .cardContainer .card1 h2 {
+  font-size: 3rem;
+}
+.creationContainer .cardContainer .card1 p {
+  font-size: 1.2rem;
+  width: 50%;
+}
+.creationContainer .cardContainer .card1 .image {
+  width: 250px;
+  height: 350px;
+  background-image: url("../../assets/image/design.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.creationContainer .cardContainer .card2 {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+.creationContainer .cardContainer .card2 h2 {
+  font-size: 3rem;
+}
+.creationContainer .cardContainer .card2 p {
+  font-size: 1.2rem;
+  width: 50%;
+}
+.creationContainer .cardContainer .card2 .image {
+  width: 250px;
+  height: 350px;
+  background-image: url("../../assets/image/design.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.creationContainer .cardContainer .card3 {
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+.creationContainer .cardContainer .card3 h2 {
+  font-size: 3rem;
+}
+.creationContainer .cardContainer .card3 p {
+  font-size: 1.2rem;
+  width: 50%;
+}
+.creationContainer .cardContainer .card3 .image {
+  width: 250px;
+  height: 350px;
+  background-image: url("../../assets/image/design.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.seoContainer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../image/backgroundperso.png");
+  font-family: "Raleway", sans-serif;
+}
+.seoContainer .seoBanner h1 {
+  color: aliceblue;
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+.seoContainer .card1 {
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  width: 50%;
+}
+.seoContainer .card1 p {
+  margin-left: 50px;
+  width: 40%;
+}
+.seoContainer .card1 img {
+  width: 40vh;
+}
+.seoContainer .card2 {
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.seoContainer .card2 img {
+  width: 40vh;
+}
+.seoContainer .card2 p {
+  margin-right: 50px;
+  width: 40%;
+}
+
+.communicationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../image/backgroundperso.png");
+  font-family: "Raleway", sans-serif;
+}
+.communicationContainer .communicationBanner h1 {
+  color: aliceblue;
 }
 
 * {

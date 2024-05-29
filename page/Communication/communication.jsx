@@ -10,10 +10,15 @@ function CommunicationPage() {
         };
     }, []);
     return (
+        <>
+            <NavBar />
         <div className="communicationContainer">
-            <NavBar/>
-            <h1>Communication page</h1>
+            <div className="communicationBanner">
+                <h1>Création de contenu multimédia</h1>
+            </div>
+            
         </div>
+        </>
     )
 }
 

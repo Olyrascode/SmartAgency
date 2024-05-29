@@ -1,0 +1,49 @@
+.seoContainer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../image/backgroundperso.png");
+  font-family: "Raleway", sans-serif;
+  .seoBanner {
+    h1 {
+      color: aliceblue;
+      font-size: 3rem;
+      margin-bottom: 100px;
+    }
+  }
+  .card1 {
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    width: 50%;
+    p {
+      margin-left: 50px;
+      width: 40%;
+    }
+    img {
+      width: 40vh;
+    }
+  }
+  .card2 {
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    img {
+      width: 40vh;
+    }
+    p {
+      margin-right: 50px;
+      width: 40%;
+    }
+  }
+}

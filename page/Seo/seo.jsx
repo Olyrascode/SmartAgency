@@ -11,12 +11,22 @@ function SeoPage() {
         };
     }, []);
     return (
-        <div className="seoContainer">
+        <>
             <NavBar />
-            <div>
-                <h1>SEo PAGE</h1>
+        <div className="seoContainer">
+            <div className="seoBanner">
+                <h1>Référencement & Seo</h1>
+            </div>
+            <div className="card1">
+            <img src="./src/assets/image/seoMobil.png" alt="" />
+            <p>Le référencement naturel est le meilleur moyen d&apos;accroitre votre visibilité et d'attirer de nouveaux visiteurs sur votre site</p>
+            </div>
+            <div className="card2">
+                <img src="./src/assets/image/seoPayant.png" alt="" />
+                <p>Sponsoriser votre contenu</p>
             </div>
         </div>
+        </>
     )
 }
 
